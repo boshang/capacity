@@ -272,6 +272,7 @@
 
 
 - (NSDate *)beginningOfDay {
+    NSLog(@"popoipippipo");
     NSCalendar *calendar = [self cachedCurrentCalendar];
     // Get the weekday component of the current date
 	NSDateComponents *components = [calendar components:(NSYearCalendarUnit | NSMonthCalendarUnit | NSDayCalendarUnit) 
